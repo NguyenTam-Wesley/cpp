@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool nam_nhuan(int a) {
+bool nam_nhuan(int a) { 
 	if (a % 4 == 0 && a % 100 != 0)
 		return true;
 	if (a % 400 == 0)
